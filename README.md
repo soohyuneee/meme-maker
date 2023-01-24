@@ -9,12 +9,13 @@
 이미지
 
 - 메인 화면
+<img width="1440" alt="메인" src="https://user-images.githubusercontent.com/105588175/214281471-95488026-ae5f-48f8-b2d9-b25cbee6ef92.png">
 
 ---
 
 - 기술스택 : HTML, CSS, JS, Canvas API <br >
 - 기능 : Draw & Fill 모드, 색상 변경, Reset & Erase, 밈 생성기, 이미지 저장 <br >
-- [링크]()
+- [링크](https://soohyuneee.github.io/meme-maker/)
 
 ---
 
