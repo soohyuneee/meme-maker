@@ -55,10 +55,10 @@ function setColor(event) {
 function onModeClick() {
 	if (isFilling) {
 		isFilling = false;
-		modeBtn.innerText = "Fill";
+		modeBtn.innerText = "🎨 Fill";
 	} else {
 		isFilling = true;
-		modeBtn.innerText = "Draw";
+		modeBtn.innerText = "🖌️ Draw";
 	}
 }
 
@@ -69,6 +69,7 @@ function onCanvasClick() {
 }
 
 function onResetClick() {
+	alert("Are you sure you want to reset?");
 	ctx.fillStyle = "white";
 	ctx.fillRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
 }
@@ -76,7 +77,7 @@ function onResetClick() {
 function onEraserClick() {
 	ctx.strokeStyle = "white";
 	isFilling = false;
-	modeBtn.innerText = "Fill";
+	modeBtn.innerText = "🎨 Fill";
 }
 
 function onFileChange(event) {
@@ -95,7 +96,7 @@ function onDoubleClick(event) {
 	if (text !== "") {
 		ctx.save();
 		ctx.lineWidth = 1;
-		ctx.font = "68px serif";
+		ctx.font = "68px sans-serif";
 		ctx.fillText(text, event.offsetX, event.offsetY);
 		ctx.restore();
 	}
