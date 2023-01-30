@@ -2,7 +2,7 @@
 
 ### 밈 생성기
 
-(참고) [노마드 코더](https://nomadcoders.co/)
+- [링크](https://soohyuneee.github.io/meme-maker/)
 
 ---
 
@@ -15,7 +15,6 @@
 
 - 기술스택 : HTML, CSS, JS, Canvas API <br >
 - 기능 : Draw & Fill 모드, 색상 변경, Reset & Erase, 밈 생성기, 이미지 저장 <br >
-- [링크](https://soohyuneee.github.io/meme-maker/)
 
 ---
 
